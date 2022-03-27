@@ -1,6 +1,8 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import HelloWorld from './components/HelloWorld';
+import Button from 'react-bootstrap/Button';
+import HelloWorld1 from './components/HelloWorld1';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Button variant="primary">Primary</Button>
       <HelloWorld></HelloWorld>
+      <HelloWorld1 />
     </div>
   );
 }
