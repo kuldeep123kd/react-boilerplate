@@ -5,7 +5,6 @@ import HelloWorld from './components/HelloWorld';
 import Button from 'react-bootstrap/Button';
 import HelloWorld1 from './components/HelloWorld1';
 import PropsExample from './components/PropsExample';
-import Router from './components/Router';
 
 function App() {
 
@@ -41,8 +40,7 @@ function App() {
       <HelloWorld></HelloWorld>
       <HelloWorld1 /> */}
 
-      {/* <PropsExample title='KD' name={NewName} newNameObj={NewNameObj} newNameArr={NewNameArr} changeNameProp={changeName}  /> */}
-      <Router />
+      <PropsExample title='KD' name={NewName} newNameObj={NewNameObj} newNameArr={NewNameArr} changeNameProp={changeName}  />
     </div>
   );
 }
