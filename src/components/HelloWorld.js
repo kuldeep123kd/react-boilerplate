@@ -16,7 +16,7 @@ const HelloWorld = () => {
             <h1>{count}</h1>
             <button onClick={changeCount}>Add Count</button>
             <button onClick={changeCountSubtract}>Subtract Count</button>
-            <Link to={'/testuser'} >
+            <Link to={'/newuser'} >
             Go to User</Link>
             <ExampleComponent />
         </div>
